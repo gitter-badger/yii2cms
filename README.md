@@ -50,3 +50,11 @@ server {
 </VirtualHost>
 
 ```
+
+#### Initial Yii2
+
+```bash
+
+$ php init
+
+```
