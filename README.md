@@ -11,7 +11,7 @@
 ```bash
 
 server {
-	set $ROOT /home/sieulog/Web
+	set $ROOT /home/sieulog/Web;
 	listen 80;
 	root $ROOT;
 	index index.html index.htm index.php;
@@ -31,5 +31,22 @@ server {
 		try_files $uri /backend/web/index.php?$args;
 	}
 }
+
+```
+
+#### Example config virtual host in Apache Server
+
+```bash
+
+<VirtualHost *:80>
+	ServerName localhost
+	DocumentRoot "/home/sieulog/Web"
+	<Directory "/home/sieulog/Web">
+		AllowOverride all
+        Order allow,deny
+        Allow from all
+		Require all granted
+	</Directory>
+</VirtualHost>
 
 ```
