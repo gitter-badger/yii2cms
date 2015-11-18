@@ -30,7 +30,7 @@ return [
             'errorAction' => 'site/error',
         ],
 		'request' => [
-            'baseUrl' => '/',
+            'baseUrl' => '',
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
