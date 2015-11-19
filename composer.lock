@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c358350323598433f6225c622e45a4fb",
-    "content-hash": "46115e59ad1824a5eda96b160de00f02",
+    "hash": "d634bd2fd2bd206f42610557ddbb870d",
+    "content-hash": "4ce9943d3e03892cad759d8e062f8543",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -316,6 +316,26 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "sieulog/yii2-ckeditor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sieulog/yii2-ckeditor.git",
+                "reference": "origin/master"
+            },
+            "type": "library"
+        },
+        {
+            "name": "sieulog/yii2-elfinder",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sieulog/yii2-elfinder.git",
+                "reference": "origin/master"
+            },
+            "type": "library"
         },
         {
             "name": "swiftmailer/swiftmailer",

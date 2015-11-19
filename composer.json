@@ -13,21 +13,37 @@
         "source": "https://github.com/yiisoft/yii2"
     },
     "minimum-stability": "stable",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/sieulog/yii2-elfinder.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sieulog/yii2-ckeditor.git"
-        }
-    ],
+    "repositories": [{
+      "type": "package",
+      "package": {
+          "name": "sieulog/yii2-ckeditor",
+          "version": "1.0.0",
+          "source": {
+              "url": "https://github.com/sieulog/yii2-ckeditor.git",
+              "type": "git",
+              "reference":"origin/master"
+          }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "sieulog/yii2-elfinder",
+          "version": "1.0.0",
+          "source": {
+              "url": "https://github.com/sieulog/yii2-elfinder.git",
+              "type": "git",
+              "reference":"origin/master"
+          }
+      }
+    }],
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*"
+        "yiisoft/yii2-swiftmailer": "*",
+        "sieulog/yii2-ckeditor": "*",
+        "sieulog/yii2-elfinder": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
