@@ -36,6 +36,18 @@
               "reference":"origin/master"
           }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "sieulog/yii2-settings",
+          "version": "1.0.0",
+          "source": {
+              "url": "https://github.com/sieulog/yii2-settings.git",
+              "type": "git",
+              "reference":"origin/master"
+          }
+      }
     }],
     "require": {
         "php": ">=5.4.0",
@@ -43,7 +55,12 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "sieulog/yii2-ckeditor": "*",
-        "sieulog/yii2-elfinder": "*"
+        "sieulog/yii2-elfinder": "*",
+        "yiisoft/yii2-redis": "*",
+        "yiisoft/yii2-elasticsearch": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-imagine": "*",
+        "sieulog/yii2-settings": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
