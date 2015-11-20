@@ -1,5 +1,7 @@
 ### Yii2VN - CMS base on Yii Framework version 2
 
+[![Join the chat at https://gitter.im/sieulog/yii2cms](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sieulog/yii2cms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #### Server information
 * Nginx
 * HHVM
